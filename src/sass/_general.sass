@@ -267,6 +267,9 @@ nav
 	text-align: center
 
 .choice
+	position: relative
+	min-height: 895px
+	background: url('../img/bg_Car_floor.png') center (center / cover) no-repeat
 	.label
 		background-color: #ffffff
 		color: #070716
@@ -275,24 +278,20 @@ nav
 	.subtitle
 		color:#ffffff
 	&_black
+		position: absolute
+		top: 0
+		left: 0
 		height: 499px
 		background-color: #070716
 		padding-top: 56px
-	&_white
-		position: relative
-		height: 397px
-		background: url('../img/bg_Car_floor.png') center (center/cover) no-repeat
-		padding-top: 217px
-		text-align: center
+		width: 100%
 		&_descr
 			font-size: 17px
 			font-weight: 300
 			color: #222222
 		&_img
-			position: absolute
-			bottom: 184px
-			left: 50%
-			transform: translateX(-50%)
+			
+			
 		
 
 
